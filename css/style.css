@@ -61,6 +61,10 @@ button {
   border-radius: 8px;
   margin-top: 5px;
 }
+button:hover {
+  background-color: #f9faf8;
+  color: #1f2937;
+}
 h3 {
   text-align: center;
   font-size: 36px;
