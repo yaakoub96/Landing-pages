@@ -1,9 +1,111 @@
 body {
+  margin: 0;
+}
+* {
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding-bottom: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  margin: 70px 0px;
+}
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  background-color: gray;
+}
+.main {
+  width: 400px;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+p {
+  margin: 0;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.information {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 70px;
 }
 .cards {
   border: 3px solid #3882f6;
-  width: 160px;
+
   height: 160px;
   border-radius: 12px;
   box-sizing: border-box;
+}
+.info {
+  width: 160px;
+  text-align: center;
+}
+.text {
+  color: #5f6164;
+  margin: 5px;
+  font-size: 17px;
+}
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+
+  background-color: #e5e7eb;
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+.quote-container {
+  width: 750px;
+}
+.thor {
+  text-align: end;
+  font-weight: 900;
 }
