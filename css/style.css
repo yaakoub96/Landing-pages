@@ -80,10 +80,10 @@ h3 {
 }
 .cards {
   border: 3px solid #3882f6;
-  height: 250px;
-  width: 250px;
   border-radius: 12px;
   box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
 }
 .info {
   width: 250px;
