@@ -109,3 +109,23 @@ h3 {
   text-align: end;
   font-weight: 900;
 }
+.sign-up {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  width: 1000px;
+  height: 140px;
+  align-items: center;
+  margin: 100px;
+  border-radius: 10px;
+}
+.call-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+}
