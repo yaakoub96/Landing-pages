@@ -76,16 +76,17 @@ h3 {
   justify-content: center;
   gap: 50px;
   margin-bottom: 70px;
+  flex-wrap: wrap;
 }
 .cards {
   border: 3px solid #3882f6;
-
-  height: 160px;
+  height: 250px;
+  width: 250px;
   border-radius: 12px;
   box-sizing: border-box;
 }
 .info {
-  width: 160px;
+  width: 250px;
   text-align: center;
 }
 .text {
